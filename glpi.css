@@ -6064,7 +6064,13 @@ img, svg {
 table {
   caption-side: bottom;
   border-collapse: collapse;
+  color: white;
 }
+
+table > tbody > tr > td > input {
+  color: red;
+}
+
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -7488,7 +7494,6 @@ progress {
   font-weight: 400;
   line-height: 1.4285714286;
   color: inherit;
-  background-color: #fdfdfd;
   background-clip: padding-box;
   border: 1px solid #d9dbde;
   appearance: none;
@@ -7507,7 +7512,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: inherit;
+  color: #1d1d1d;
   background-color: #fdfdfd;
   border-color: #ffe4ae;
   outline: 0;
@@ -7530,6 +7535,7 @@ progress {
   margin-inline-end: 0.75rem;
   color: inherit;
   background-color: #fafbfc;
+  color: #1d1d1d;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -20332,9 +20338,6 @@ Dimmer
   border-top-color: transparent;
   border-right-color: transparent;
 }
-.ribbon.bg-blue {
-  border-color: #206bc4;
-}
 .ribbon.bg-blue-lt {
   border-color: #2b72c7 !important;
 }
@@ -21764,7 +21767,6 @@ Chart sparkline
 }
 .bg-blue {
   color: #ffffff !important;
-  background: #206bc4 !important;
 }
 .text-blue {
   color: #206bc4 !important;
@@ -23233,7 +23235,8 @@ table.deleted-results > :not(caption) > * > * {
  */
 .asset .card-header {
   background-color: rgba(32, 107, 196, 0.05);
-  color: #206bc4;
+  color: #fff;
+  font-weight: bold;
   border-color: #c7daf0;
 }
 .asset .card-header:not(.main-header) {
