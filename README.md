@@ -10,9 +10,7 @@ Le logo peut aussi être changé au chemin suivant : glpi/pics/logo
 
 Le thème utilise un logo classique et une version mini pour quand le menu est rétracté
 
-```
 ![Alt text](preview.png?raw=true "Title")
-```
 
 
 
